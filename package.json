@@ -8,9 +8,14 @@
     "git-cz": "^3.0.1",
     "node-fetch": "^2.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^24.7.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:jest",
+    "test:jest": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [],
   "author": "",
