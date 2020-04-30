@@ -6,7 +6,8 @@
   "dependencies": {
     "dotenv": "^7.0.0",
     "git-cz": "^3.0.1",
-    "node-fetch": "^2.4.1"
+    "node-fetch": "^2.4.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "jest": "^24.7.1"
@@ -15,9 +16,12 @@
     "test": "npm run test:jest",
     "test:jest": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
