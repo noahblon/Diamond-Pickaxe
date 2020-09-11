@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^7.0.0",
     "git-cz": "^3.0.1",
-    "node-fetch": "^2.4.1"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "jest": "^24.7.1"
